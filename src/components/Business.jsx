@@ -3,7 +3,7 @@ import styles from '../styles';
 import { features } from '../constants';
 
 const Business = () => (
-  <section id="features" className={`${styles.marginY} flex flex-col md:flex-row`}>
+  <section id="features" className={`${styles.marginY} flex flex-col items-center md:flex-row`}>
 
     <div className="flex flex-col gap-6 md:max-w-[620px] mr-0 md:mr-20">
       <h1 className={`${styles.heading2}`}>You do the business, we’ll handle the money.</h1>
