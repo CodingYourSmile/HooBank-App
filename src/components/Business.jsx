@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from '../styles';
 import { features } from '../constants';
+import { Button } from '../components';
 
 const Business = () => (
   <section id="features" className={`${styles.marginY} flex flex-col items-center md:flex-row`}>
@@ -8,7 +9,7 @@ const Business = () => (
     <div className="flex flex-col gap-6 md:max-w-[620px] mr-0 md:mr-20">
       <h1 className={`${styles.heading2}`}>You do the business, we’ll handle the money.</h1>
       <p className={`${styles.paragraph} text-justify md:text-left`}>With the right credit card, you can improve your financial life by building credit, earning rewards and saving money. But with hundreds of credit cards on the market.</p>
-      <button className="self-center md:self-start w-[170px] h-[74px] rounded-md bg-blue-gradient text-[18px] font-medium font-poppins" type="button">Get Started</button>
+      <Button/>
     </div>
 
     <div className="flex flex-col">
