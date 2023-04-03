@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from '../styles';
 import { features } from '../constants';
 import { Button } from '../components';

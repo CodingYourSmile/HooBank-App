@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from '../styles';
 import { card } from '../assets';
 import { Button } from '../components';

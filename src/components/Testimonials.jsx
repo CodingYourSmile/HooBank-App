@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from '../styles';
 import { feedback } from '../constants';
 import { quotes } from '../assets';
